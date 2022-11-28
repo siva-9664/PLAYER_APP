@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+    transition: background-color 0.5s;
+}
+.player{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.track-art{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    border-radius: 10%;
+}
+.track-name{
+    font-size: 1rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.previous-track,.next-track,.pause-play-track{
+    padding: 25px;
+    opacity: 0.5s;
+    transition: opacity 0.2s;
+    font-size: 30px;
+}
+.pause-play-track{
+    font-size: 40px;
+}
+.previous-track:hover,.next-track:hover,.pause-play-track:hover{
+    opacity: 1;
+}
